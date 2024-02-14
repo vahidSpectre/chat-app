@@ -1,0 +1,16 @@
+.style {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  height: 300px;
+  background: linear-gradient(
+    90deg,
+    hsl(0, 0%, 100%) 0%,
+    rgba(89, 81, 255, 0.9884259259259259) 100%
+  );
+  padding: 0 20px;
+  border-radius: 5px;
+  background-color: rgb(150, 150, 150);
+}

@@ -1,0 +1,70 @@
+.messageboxuser::before {
+  content: '';
+  width: 0.5rem;
+  height: 1rem;
+  display: block;
+  clip-path: polygon(
+    15% 37%,
+    24% 50%,
+    40% 67%,
+    59% 82%,
+    79% 92%,
+    100% 100%,
+    0 100%,
+    0% 70%,
+    0 0,
+    6% 21%
+  );
+
+  position: absolute;
+  left: 99.9%;
+  bottom: 0;
+}
+.trash:hover > .trash-top {
+  animation: trashtop 0.8s ease-out;
+}
+.trash:hover {
+  background-color: rgba(255, 0, 0, 0.469);
+}
+.trash-top {
+  width: 40px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3px;
+}
+.trash-top::after {
+  content: '';
+  width: 5px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: black;
+  display: block;
+  transform: translateY(-4px);
+}
+.trash-bottom {
+  border-top: 30px solid grey;
+  border-left: 7.5px solid transparent;
+  border-right: 7.5px solid transparent;
+  height: 0px;
+  width: 35px;
+}
+@keyframes trashtop {
+  0% {
+    transform: translateY(-10px);
+  }
+  25% {
+    transform: translateY(-7.5px) rotate(-10deg);
+    transform-origin: left;
+  }
+  75% {
+    transform: translateY(-3.5px) rotate(0deg);
+    transform-origin: left;
+  }
+  100% {
+    transform: translateY(0px);
+    transform-origin: center;
+  }
+}

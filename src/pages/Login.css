@@ -1,0 +1,82 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 70%;
+}
+.form-container {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-input {
+  height: 20px;
+  width: 100%;
+  border: 1px solid darkgray;
+}
+.form-input:focus {
+  outline: none;
+  border: 1px solid darkgray;
+  background: linear-gradient(
+    90deg,
+    rgba(89, 81, 255, 0.5023148148148149) 0%,
+    rgba(177, 0, 255, 0.49537037037037035) 100%
+  );
+}
+.form-btn {
+  background: linear-gradient(
+    90deg,
+    rgba(89, 81, 255, 0.9884259259259259) 0%,
+    rgba(177, 0, 255, 1) 100%
+  );
+  color: white;
+  border: none;
+  height: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bolder;
+  margin-top: 10px;
+  align-self: center;
+  width: 80%;
+}
+.form-erorr {
+  text-align: center;
+  color: red;
+  font-weight: light;
+  font-size: x-small;
+  margin-top: 5px;
+}
+.form-label {
+  font-size: x-small;
+  margin-top: 15px;
+  margin-bottom: 4px;
+}
+.svg {
+  width: 9.8vw;
+  margin-top: 30px;
+}
+.heading {
+  text-align: center;
+}
+.contact-container {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login-container {
+  width: 50%;
+  height: 100%;
+}
+.main-container {
+  height: 100vh;
+  width: 60vw;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-around;
+}

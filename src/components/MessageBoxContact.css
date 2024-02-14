@@ -1,0 +1,22 @@
+.messagebox::before {
+  content: '';
+  width: 0.5rem;
+  height: 1rem;
+  display: block;
+  clip-path: polygon(
+    82% 39%,
+    100% 0,
+    100% 35%,
+    100% 71%,
+    100% 100%,
+    50% 100%,
+    26% 100%,
+    0 100%,
+    35% 82%,
+    66% 58%
+  );
+  /* background: red; */
+  position: absolute;
+  right: 99.9%;
+  bottom: 0;
+}

@@ -1,0 +1,7 @@
+.signin-form {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: 100%;
+  margin-top: 15px;
+}

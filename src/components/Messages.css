@@ -1,0 +1,77 @@
+.messages-body {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.5s;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal {
+  border-radius: 5px;
+}
+.contact-container {
+  width: 35vw;
+  height: 90vh;
+  overflow-y: scroll;
+  outline: none;
+  border-radius: 5px;
+}
+.contact-container-bgimg {
+  width: 100%;
+  height: 90vh;
+}
+.contact-container-img-bg {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  backdrop-filter: blur(50px);
+}
+.contact-container-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.contact-container-info {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.contact-container-info-name {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+}
+.contact-container-info-bio {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 0;
+}
+.contact-container-info-con {
+  width: 100%;
+  height: auto;
+  margin: 0.5rem 0rem;
+  border: 1px solid rgba(215, 215, 215, 0.64);
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+}
+.app-bar {
+  height: 4rem;
+  max-width: 100%;
+  right: 0;
+  box-shadow: none;
+  display: flex;
+  justify-content: center;
+  background-color: white !important;
+  border-left: 0.5px solid rgb(200, 200, 200);
+  box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s;
+}

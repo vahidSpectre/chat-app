@@ -1,0 +1,11 @@
+.scrollbar-messages::-webkit-scrollbar {
+  transition: all 0.2s;
+  background-color: transparent;
+  width: 6px;
+}
+.scrollbar-messages::-webkit-scrollbar-thumb {
+  transition: all 0.2s;
+  background-color: rgba(159, 159, 159, 0.866);
+  border-radius: 5px;
+  display: block;
+}

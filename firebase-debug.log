@@ -1,0 +1,47 @@
+[debug] [2023-01-25T00:20:37.959Z] ----------------------------------------------------------------------
+[debug] [2023-01-25T00:20:37.961Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\vahid\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-01-25T00:20:37.961Z] CLI Version:   11.21.0
+[debug] [2023-01-25T00:20:37.961Z] Platform:      win32
+[debug] [2023-01-25T00:20:37.961Z] Node Version:  v16.16.0
+[debug] [2023-01-25T00:20:37.962Z] Time:          Wed Jan 25 2023 03:50:37 GMT+0330 (Iran Standard Time)
+[debug] [2023-01-25T00:20:37.962Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-01-25T00:20:37.965Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-01-25T00:20:38.049Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-01-25T00:20:38.049Z] > authorizing via signed-in user (vahid.royale.1378@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\vahid\Desktop\demo\demo-1
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-01-25T00:20:56.025Z] Using project from CLI flag: some-dummy-project-31d8a
+[debug] [2023-01-25T00:20:56.027Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/some-dummy-project-31d8a [none]
+[debug] [2023-01-25T00:20:56.635Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/some-dummy-project-31d8a 200
+[debug] [2023-01-25T00:20:56.635Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/some-dummy-project-31d8a {"projectId":"some-dummy-project-31d8a","projectNumber":"739788085837","displayName":"some dummy project","name":"projects/some-dummy-project-31d8a","resources":{"hostingSite":"some-dummy-project-31d8a","storageBucket":"some-dummy-project-31d8a.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_e561e7b9-1c4c-4cde-8cf2-7a446e33e736"}
+[info] i  Using project some-dummy-project-31d8a (some dummy project) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[warn] !  Unable to fetch the CLI MOTD and remote config. 
+[debug] [2023-01-25T00:20:59.096Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json
