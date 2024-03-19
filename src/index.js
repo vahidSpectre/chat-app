@@ -11,7 +11,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
-    <HashRouter>
+    <BrowserRouter>
       <AuthContextProvider>
         <NightModeContextProvider>
           <ThemeContextProvider>
@@ -19,7 +19,7 @@ root.render(
           </ThemeContextProvider>
         </NightModeContextProvider>
       </AuthContextProvider>
-    </HashRouter>
+    </BrowserRouter>
   </React.StrictMode>
 );
 
