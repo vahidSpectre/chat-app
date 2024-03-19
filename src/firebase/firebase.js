@@ -1,16 +1,16 @@
-import { initializeApp } from 'firebase/app';
-import { getAuth } from 'firebase/auth';
-import { getFirestore } from 'firebase/firestore';
-import { getStorage } from 'firebase/storage';
+import { initializeApp } from "firebase/app";
+import { getAuth } from "firebase/auth";
+import { getFirestore } from "firebase/firestore";
+import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyAe2V19peiMV7wvDI4hOIsZhI5rjf6vITY',
-  authDomain: 'some-dummy-project-31d8a.firebaseapp.com',
-  projectId: 'some-dummy-project-31d8a',
-  storageBucket: 'some-dummy-project-31d8a.appspot.com',
-  messagingSenderId: '739788085837',
-  appId: '1:739788085837:web:d116938999db29d87b1a04',
-  measurementId: 'G-RT12K9S9K2',
+  apiKey: process.env.API_KEY,
+  authDomain: process.env.AUTH_DOMAIN,
+  projectId: process.env.PROJECT_ID,
+  storageBucket: process.env.STORAGE_BUCKET,
+  messagingSenderId: process.env.MESSAGEING_DENDER_ID,
+  appId: process.env.APP_ID,
+  measurementId: process.env.MEASURMENT_ID,
 };
 
 const app = initializeApp(firebaseConfig);
